@@ -1,0 +1,48 @@
+#goals {
+  width: 35rem;
+  max-width: 90%;
+  margin: 3rem auto;
+}
+#dark #goals {
+  color: white;
+}
+
+.goal-form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#light{
+  height: 100vmax;
+  background-color: white;
+}
+
+#dark{
+  height: 100vmax;
+  background-color: black;
+}
+
+#dark .goal-form{
+  background-color: #8b005d;
+  box-shadow: 0 2px 12px rgba(248, 247, 247, 0.699);
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #8b005d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+.header label{
+  margin-right: 5px;
+}
+#light .header label{
+  color: white;
+}
